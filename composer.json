@@ -1,0 +1,33 @@
+{
+  "name": "carvalhosjs/factory",
+  "description": "My Factory",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Carlos Mateus Carvalho",
+      "email": "carvalho.ti.adm@gmail.com",
+      "homepage": "http://carvalhosjs.github.io",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Boot/Config.php",
+      "source/Boot/Helpers.php",
+      "source/Boot/Minify/Web.php"
+    ]
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-pdo": "^7.1",
+    "matthiasmullie/minify": "^1.3",
+    "league/plates": "v4.0.0-alpha",
+    "coffeecode/router": "^1.0"
+  }
+}
