@@ -14,13 +14,8 @@ if(strpos(url(), "localhost")){
     $minCss->add(__DIR__ . '/../../../assets/plugins/toast/jquery.toast.min.css');
 
     //my libs
-    $minCss->add(__DIR__ . '/../../../assets/css/main-mobile.css');
-    $minCss->add(__DIR__ . '/../../../assets/css/main-medium.css');
-    $minCss->add(__DIR__ . '/../../../assets/css/main-large.css');
 
 
-    //themme css
-    /*
     $cssDir = scandir(__DIR__ . "/../../../themes/" . CONF_VIEW_THEME . "/assets/css");
     foreach($cssDir as $css){
         $cssFile = __DIR__ . "/../../../themes/" . CONF_VIEW_THEME . "/assets/css/{$css}";
@@ -28,7 +23,7 @@ if(strpos(url(), "localhost")){
             $minCss->add($cssFile);
         }
     }
-    */
+
     //minify css
 
     $minCss->minify(__DIR__ . "/../../../themes/" . CONF_VIEW_THEME . "/assets/style.css");
@@ -64,12 +59,9 @@ if(strpos(url(), "localhost")){
 
 
     //my libs
-    $minJs->add(__DIR__ . '/../../../assets/js/main.js');
-    $minJs->add(__DIR__ . '/../../../assets/js/ajax.js');
 
     //themme js
 
-    /*
     $jsDir = scandir(__DIR__ . "/../../../themes/" . CONF_VIEW_THEME . "/assets/js");
     foreach($jsDir as $js){
         $jsFile = __DIR__ . "/../../../themes/" . CONF_VIEW_THEME . "/assets/js/{$js}";
@@ -77,7 +69,7 @@ if(strpos(url(), "localhost")){
             $minJs->add($jsFile);
         }
     }
-    */
+
 
     //minify
     $minJs->minify(__DIR__ . "/../../../themes/" . CONF_VIEW_THEME . "/assets/scripts.js");
