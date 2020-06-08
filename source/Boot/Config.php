@@ -33,3 +33,5 @@ define("CONF_VIEW_PATH", __DIR__ . "/../../assets/views");
 define("CONF_VIEW_EXT", "php");
 define("CONF_VIEW_THEME", "factory");
 
+/*libs*/
+define("CONF_FACTORIES", ['bootstrap-4.5', 'fontawesome-5.12', 'jquery-3.5', 'jqueryform-3.51', 'lightbox-2.2', 'sweetalert2-9', 'swipper-5.4', 'toast-2.1']);

@@ -5,16 +5,27 @@ if(strpos(url(), "localhost")){
 
     //plugins comentar o que não for usado
     //bootstrap
-    $minCss->add(__DIR__ . '/../../../assets/plugins/bootstrap/css/bootstrap-4.5.0.css');
+    //$minCss->add(__DIR__ . '/../../../assets/plugins/bootstrap/css/bootstrap-4.5.0.css');
     //lightbox
-    $minCss->add(__DIR__ . '/../../../assets/plugins/lightbox/lightbox-2.1.5.css');
+    //$minCss->add(__DIR__ . '/../../../assets/plugins/lightbox/lightbox-2.1.5.css');
     //swipper
-    $minCss->add(__DIR__ . '/../../../assets/plugins/swipper/swiper-5.4.2.css');
+    //$minCss->add(__DIR__ . '/../../../assets/plugins/swipper/swiper-5.4.2.css');
    //toast
-    $minCss->add(__DIR__ . '/../../../assets/plugins/toast/jquery.toast.min.css');
+    //$minCss->add(__DIR__ . '/../../../assets/plugins/toast/jquery.toast.min.css');
+    $confFacs = CONF_FACTORIES;
+
+    $cssDirLib = __DIR__ . '/../../../assets/plugins/';
+    foreach ($confFacs as $cssLib){
+        $cssFiles = scandir($cssDirLib . $cssLib);
+        foreach ($cssFiles as $cssFile){
+            $cssF = $cssDirLib . $cssLib . "/"  . $cssFile;
+            if(is_file($cssF) && pathinfo($cssF)['extension']=="css"){
+                $minCss->add($cssF);
+            }
+        }
+    }
 
     //my libs
-
 
     $cssDir = scandir(__DIR__ . "/../../../themes/" . CONF_VIEW_THEME . "/assets/css");
     foreach($cssDir as $css){
@@ -38,6 +49,8 @@ if(strpos(url(), "localhost")){
 
     //plugins comentar o que não for usado
     //jquery
+    //
+    /*
     $minJs->add(__DIR__ . '/../../../assets/plugins/jquery/jquery-3.5.1.js');
     //bootstrap
     $minJs->add(__DIR__ . '/../../../assets/plugins/bootstrap/js/bootstrap-4.5.0.js');
@@ -56,6 +69,19 @@ if(strpos(url(), "localhost")){
     $minJs->add(__DIR__ . '/../../../assets/plugins/toast/jquery.toast.min.js');
     //fontawesome
     $minJs->add(__DIR__ . '/../../../assets/plugins/fontawesome/all.min-5.12.0.js');
+*/
+
+
+    $jsDirLib = __DIR__ . '/../../../assets/plugins/';
+    foreach ($confFacs as $jsLib){
+        $cssFiles = scandir($jsLib . $cssLib);
+        foreach ($cssFiles as $cssFile){
+            $cssF = $cssDirLib . $cssLib . "/"  . $cssFile;
+            if(is_file($cssF) && pathinfo($cssF)['extension']=="css"){
+                $minCss->add($cssF);
+            }
+        }
+    }
 
 
     //my libs
