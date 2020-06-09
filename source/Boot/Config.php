@@ -31,7 +31,9 @@ define("CONF_DATE_APP", "Y-m-d H:i:s");
  */
 define("CONF_VIEW_PATH", __DIR__ . "/../../assets/views");
 define("CONF_VIEW_EXT", "php");
-define("CONF_VIEW_THEME", "factory");
+define("CONF_THEME_PATH", __DIR__ . '/../../themes');
+//project name
+define("CONF_VIEW_THEME", "carvalhos");
 
 /*libs*/
 
