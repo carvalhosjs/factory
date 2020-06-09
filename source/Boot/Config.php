@@ -34,4 +34,20 @@ define("CONF_VIEW_EXT", "php");
 define("CONF_VIEW_THEME", "factory");
 
 /*libs*/
-define("CONF_FACTORIES", ['bootstrap-4.5', 'fontawesome-5.12', 'jquery-3.5', 'jqueryform-3.51', 'lightbox-2.2', 'sweetalert2-9', 'swipper-5.4', 'toast-2.1']);
+
+/*LIBS AVAILABLE
+    bootstrap-4.5
+    bootstrapgrid-4.5
+    fontawesome-5.12
+    jquery-3.5
+    jqueryform-3.51
+    lightbox-2.2
+    materialize-1.0
+    sweetalert2-9
+    swipper-5.4
+    toast-2.1
+*/
+
+define("CONF_FACTORIES", ['jquery-3.5', 'bootstrap-4.5', 'fontawesome-5.12', 'lightbox-2.2', 'sweetalert2-9', 'swipper-5.4']);
+//per project
+define("MY_LIBS", []);
