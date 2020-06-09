@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2639654c-4e40-4d3c-9fe6-e3c672965782" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap-4.5/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrapgrid-4.5/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap-4.5/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrapgrid-4.5/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Boot/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/Boot/Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Boot/Minify/Web.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/Boot/Minify/Web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/factory/assets/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/factory/assets/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/factory/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/factory/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/factory/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/factory/home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +18,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/Boot/Config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="580">
-              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+              <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/carvalhos/home.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -116,7 +114,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="993" />
+    <option name="width" value="1380" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -131,17 +129,6 @@
             <path>
               <item name="factory" type="b2602c69:ProjectViewProjectNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="factory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="factory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="factory" type="b2602c69:ProjectViewProjectNode" />
@@ -172,19 +159,6 @@
               <item name="factory" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="factory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="factory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -194,7 +168,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="Z:/sismedp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -229,16 +203,15 @@
       <option name="presentableId" value="Default" />
       <updated>1591642890347</updated>
       <workItem from="1591642893514" duration="1930000" />
-      <workItem from="1591700113089" duration="2479000" />
+      <workItem from="1591700113089" duration="3453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4409000" />
+    <option name="totallyTimeSpent" value="5383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -401,12 +374,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/toast-2.1/jquery.toast.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/Boot/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/carvalhos/home.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
