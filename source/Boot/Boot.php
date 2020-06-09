@@ -37,5 +37,34 @@
         fwrite($arquivo, $folder);
         fclose($arquivo);
 
+        $arquivoCSS = fopen($css .'/01-mobile.css', 'w+');
+        $txtCSS = "body{background:red}";
+
+        $arquivoCSS2 = fopen($css . '/02-medium.css', 'w+');
+        $txtCSS2 = '@media (min-width: 576px) { body{background:green }}';
+
+        $arquivoCSS3 = fopen($css . '/03-large.css', 'w+');
+        $txtCSS3 = '@media (min-width: 992px) { body{background:blue}}';
+
+        if ($arquivoCSS == false) die('Não foi possível criar o arquivo.');
+        if ($arquivoCSS2 == false) die('Não foi possível criar o arquivo.');
+        if ($arquivoCSS3 == false) die('Não foi possível criar o arquivo.');
+
+
+
+        fwrite($arquivoCSS, $txtCSS);
+        fwrite($arquivoCSS2, $txtCSS2);
+        fwrite($arquivoCSS3, $txtCSS3);
+
+        fclose($arquivoCSS);
+        fclose($arquivoCSS2);
+        fclose($arquivoCSS3);
+
+        //js
+        $arquivoJS = fopen($js .'/01-main.js', 'w+');
+        $txtJS = 'console.log("Gerado com sucesso!")';
+        fwrite($arquivoJS, $txtJS);
+        fclose($arquivoJS);
+
 
     }
