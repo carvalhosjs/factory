@@ -38,11 +38,11 @@
         fclose($arquivo);
 
         $filesCSS = [
-            ['01-mobile.css', 'body{background:red}'],
-            ['02-small.css', '@media (min-width: 576px) { body{background:green }}'],
-            ['03-medium.css', '@media (min-width: 768px) { body{background:blue }}'],
-            ['04-large.css', '@media (min-width: 992px) { body{background:cyan }}'],
-            ['05-extra-large.css', '@media (min-width: 1200px) { body{background:grey }}']];
+            ['01-mobile.css', 'body{}'],
+            ['02-small.css', '@media (min-width: 576px) { body{}}'],
+            ['03-medium.css', '@media (min-width: 768px) { body{ }}'],
+            ['04-large.css', '@media (min-width: 992px) { body{}}'],
+            ['05-extra-large.css', '@media (min-width: 1200px) { body{ }}']];
 
         foreach ($filesCSS as $item){
             $arquivoCSS = fopen($css .'/' . $item[0], 'w+');
